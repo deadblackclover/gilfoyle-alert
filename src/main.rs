@@ -1,4 +1,6 @@
 use clap::{App, Arg};
+use std::thread;
+use std::time::Duration;
 
 mod alert;
 
@@ -26,5 +28,10 @@ fn main() {
     let coin = matches.value_of("coin").unwrap_or("btc");
     let price = matches.value_of("PRICE").unwrap();
 
-    alert::check(String::from(coin), String::from(price));
+    let minute = 60;
+
+    loop {
+        alert::check(String::from(coin), String::from(price));
+        thread::sleep(Duration::from_secs(minute))
+    }
 }

@@ -1,2 +1,2 @@
 # gilfoyle-alert
-Silicon Valley Alert
+Silicon valley Gilfoyle alert

@@ -1,6 +1,11 @@
 # gilfoyle-alert
 Silicon valley Gilfoyle alert
 
+## Example
+```bash
+./gilfoyle-alert -c eth 420
+```
+
 ## Usage
 
 ```bash

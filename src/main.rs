@@ -5,7 +5,7 @@ use std::time::Duration;
 mod alert;
 
 fn main() {
-    let matches = App::new("sndcld")
+    let matches = App::new("gilfoyle-alert")
         .version("0.1.0")
         .author("DEADBLACKCLOVER <deadblackclover@protonmail.com>")
         .about("Silicon valley Gilfoyle alert")
